@@ -1,6 +1,6 @@
 #Program Written By: Ainsley Bellamy
 #Date Written: 04/09/2025
-#Program Title: Simple_GUI
+#Program Title: ButtonDisplay_GUI
 
 
 #Import proper modules.
