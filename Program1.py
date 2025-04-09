@@ -10,11 +10,11 @@ class MyGUI:
         self.main_window = tkinter.Tk()
         self.main_window.title("StarWars_GUI")
 #Set labels.
-        self.label = tkinter.Label(self.main_window, text='"No, I am your father."')
+        self.label = tkinter.Label(self.main_window, text='"No, I am your father."', borderwidth=6, relief="solid")
         self.label1 = tkinter.Label(self.main_window, text="--Darth Vader,")
         self.label2 = tkinter.Label(self.main_window, text="The Empire Strikes Back")
 #Pack and format.
-        self.label.pack(padx=50, pady=15)
+        self.label.pack(padx=50, pady=15, ipadx=3, ipady=2)
         self.label1.pack()
         self.label2.pack()
 
